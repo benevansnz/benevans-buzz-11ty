@@ -13,14 +13,6 @@ export default {
     {
       text: 'Sustainability',
       url: '/sustainability/'
-    },
-    {
-      text: 'Privacy',
-      url: '/privacy/'
-    },
-    {
-      text: 'Accessibility',
-      url: '/accessibility/'
     }
   ]
 };
