@@ -1,28 +1,22 @@
 export const url = process.env.URL || 'http://localhost:8080';
 // Extract domain from `url`
 export const domain = new URL(url).hostname;
-export const siteName = 'Eleventy Excellent';
-export const siteDescription = 'Eleventy starter for building modern, resilient websites';
+export const siteName = 'Ben Evans';
+export const siteDescription = 'Come and see what I am up to in the world.';
 export const siteType = 'Person'; // schema
 export const locale = 'en_EN';
 export const lang = 'en';
 export const skipContent = 'Skip to content';
 // for the site content author, used in <head> meta and post h-card microformat
 export const author = {
-  name: 'Lene Saile', // i.e. Lene Saile - page / blog author's name. Must be set.
+  name: 'Ben Evans', // i.e. Ben Evans - page / blog author's name. Must be set.
   avatar: '/icon-512x512.png', // path to the author's avatar. In this case just using a favicon.
-  fediverse: '@lene@front-end.social', // used for highlighting journalism on the fediverse. Can be Mastodon, Flipboard, Threads, WordPress (with the ActivityPub plugin installed), PeerTube, Pixelfed, etc. https://blog.joinmastodon.org/2024/07/highlighting-journalism-on-mastodon/
-  me: [
-    // loop over verified rel=me profiles in the HTML <head>
-    'https://front-end.social/@lene'
-  ]
 };
 // for the site developer, used for footer credits and humans.txt info
 export const creator = {
-  name: 'Lene Saile', // i.e. Lene Saile - creator's (developer) name.
-  email: 'hola@lenesaile.com',
-  website: 'https://www.lenesaile.com',
-  social: 'https://front-end.social/@lene'
+  name: 'Ben Evans', // i.e. Lene Saile - creator's (developer) name.
+  email: 'ben@sholezard.com',
+  website: 'https://www.benevans.buzz'
 };
 export const pathToSvgLogo = 'src/assets/svg/misc/logo.svg'; // used for favicon generation
 export const themeColor = '#dd4462'; // used in manifest, for example primary color value
@@ -33,8 +27,8 @@ export const opengraph_default_alt =
   "Visible content: An Eleventy starter with CUBE CSS, Cube CSS, Every Layout, Design Tokens and Tailwind for uitility classes. A workflow for building modern and resilient websites, introduced by Andy Bell's project buildexcellentwebsit.es"; // alt text for default meta image"
 export const blog = {
   // RSS feed
-  name: 'My Web Development Blog',
-  description: 'Tell the word what you are writing about in your blog. It will show up on feed readers.',
+  name: 'Ben Evans Buzz',
+  description: 'Come and see what I am up to in the world.',
   // feed links are looped over in the head. You may add more to the array.
   feedLinks: [
     {
@@ -100,9 +94,4 @@ export const tests = {
     globalIgnore: []
   }
 };
-export const viewRepo = {
-  // this is for the view/edit on github link. The value in the package.json will be pulled in.
-  allow: true,
-  infoText: 'View this page on GitHub'
-};
-export const easteregg = true;
+

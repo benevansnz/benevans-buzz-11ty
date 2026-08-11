@@ -3,9 +3,6 @@
     <div class="cluster gutter-xs">
       <nav class="cluster text-step-0" aria-label="{{ meta.navigation.ariaBottom }}">
         &copy; {% year %}
-        <a href="/" {{ indicateActiveHome }}
-          ><span class="font-display">{{ meta.siteName }}</span> <small>{{ pkg.version }}</small>
-        </a>
 
         {% for item in navigation.bottom %}
           <a
