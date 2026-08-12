@@ -16,3 +16,33 @@
 /* @import-glob 'tests/*.css' layer(test); */
 
 @import 'tailwindcss/utilities' layer(tailwindUtilities);
+
+.bas {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  /* padding: 0 1rem; */
+}
+
+.bas h1 {
+    /* max-width: 6ch; */
+    text-align: left;
+}
+
+.bas__wrapper {
+  border: 0.5rem solid var(--color-tertiary);
+  border-radius: 100%;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.bas__wrapper picture {
+    transform: scale(1.2);
+}

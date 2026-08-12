@@ -5,7 +5,7 @@
   "items": [
     {
       "name": "Gray 100",
-      "value": "#f8f8f8"
+      "value": "#fafafa"
     },
     {
       "name": "Gray 200",
@@ -62,6 +62,14 @@
     {
       "name": "Gold Subdued",
       "value": "#f1c15b"
+    },
+    {
+      "name": "Purple",
+      "value": "#af2bed"
+    },
+    {
+      "name": "Purple Subdued",
+      "value": "#8422b3"
     }
   ]
 }

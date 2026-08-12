@@ -1,25 +1,27 @@
 ---
 layout: base
 permalink: /index.html
-title: 'Hello there!'
 blog:
   title: 'Blog'
 ---
 
 <div class="wrapper">
   <header class="full | section spot-color-theme-primary">
-    <div class="section__inner flow region">
-      <h1 class="text-center text-theme-light">{{ title }}</h1>
+    <div class="section__inner flow region wrapper text-theme-light">
+      <div class="bas">
+        <div class="bas__wrapper">
+          <img id="ben-and-shekar-img" src="/assets/images/ben-and-shekar.png" alt="" />
+        </div>
+        <h1 class="text-center">Hello there!</h1>
+        <div class="prose wrapper flow text-center">
+          <p>I'm Ben, a developer, traveller, cat-dad, and coffee enthusiast.</p>
+          <p>When I'm not writing code, you'll either find me on the football pitch, making music, or a few hundred turns deep in Civilization VI (one more turn!)</p>
+          <p>I've blogged intermittently over the years, some posts of which you can find here.</p>
+        </div>
+      </div>
     </div>
     {% svg "divider/soft-bottom", null, "divider" %}
   </header>
-
-  <article class="full | region">
-    <div class="prose wrapper flow">
-      <p>I'm Ben, a developer, traveller, cat-dad, and coffee enthusiast.</p>
-      <p>When I'm not writing code, you'll either find me on the football pitch, making music, or a few hundred turns deep in Civilization VI (one more turn!).</p>
-    </div>
-  </article>
 
   <section class="full | region">
     <div class="prose wrapper flow">

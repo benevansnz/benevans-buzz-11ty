@@ -10,16 +10,16 @@ export const skipContent = 'Skip to content';
 // for the site content author, used in <head> meta and post h-card microformat
 export const author = {
   name: 'Ben Evans', // i.e. Ben Evans - page / blog author's name. Must be set.
-  avatar: '/icon-512x512.png', // path to the author's avatar. In this case just using a favicon.
+  avatar: '/ben-and-shekar.png', // path to the author's avatar. In this case just using a favicon.
 };
 // for the site developer, used for footer credits and humans.txt info
 export const creator = {
-  name: 'Ben Evans', // i.e. Lene Saile - creator's (developer) name.
+  name: 'Ben Evans',
   email: 'ben@sholezard.com',
   website: 'https://www.benevans.buzz'
 };
 export const pathToSvgLogo = 'src/assets/svg/misc/logo.svg'; // used for favicon generation
-export const themeColor = '#dd4462'; // used in manifest, for example primary color value
+export const themeColor = '#4467dd'; // used in manifest, for example primary color value
 export const themeLight = '#f8f8f8'; // used for meta tag theme-color, if light colors are prefered. best use value set for light bg
 export const themeDark = '#2e2e2e'; // used for meta tag theme-color, if dark colors are prefered. best use value set for dark bg
 export const opengraph_default = '/assets/images/template/opengraph-default.jpg'; // fallback/default meta image

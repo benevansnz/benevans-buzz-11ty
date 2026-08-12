@@ -36,9 +36,10 @@
   --color-text: var(--color-gray-800);
   --color-bg: var(--color-gray-100);
 
-  --color-primary: var(--color-pink);
-  --color-secondary: var(--color-blue);
+  --color-primary: var(--color-blue);
+  --color-secondary: var(--color-pink);
   --color-tertiary: var(--color-gold);
+  --color-quaternary: var(--color-purple);
 
   --color-text-accent: var(--color-gray-700);
   --color-bg-accent: var(--color-gray-200);
@@ -51,9 +52,10 @@
     --color-text: var(--color-gray-100);
     --color-bg: var(--color-gray-800);
 
-    --color-primary: var(--color-pink-subdued);
-    --color-secondary: var(--color-blue-subdued);
+    --color-primary: var(--color-blue-subdued);
+    --color-secondary: var(--color-pink-subdued);
     --color-tertiary: var(--color-gold-subdued);
+    --color-quaternary: var(--color-purple-subdued);
 
     --color-text-accent: var(--color-gray-300);
     --color-bg-accent: var(--color-gray-700);
@@ -64,9 +66,10 @@
   --color-text: var(--color-gray-100);
   --color-bg: var(--color-gray-800);
 
-  --color-primary: var(--color-pink-subdued);
-  --color-secondary: var(--color-blue-subdued);
+  --color-primary: var(--color-blue-subdued);
+  --color-secondary: var(--color-pink-subdued);
   --color-tertiary: var(--color-gold-subdued);
+  --color-quaternary: var(--color-purple-subdued);
 
   --color-text-accent: var(--color-gray-300);
   --color-bg-accent: var(--color-gray-700);

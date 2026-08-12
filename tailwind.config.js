@@ -38,7 +38,8 @@ const semanticColors = {
   'theme-bg-accent': 'var(--color-bg-accent)',
   'theme-primary': 'var(--color-primary)',
   'theme-secondary': 'var(--color-secondary)',
-  'theme-tertiary': 'var(--color-tertiary)'
+  'theme-tertiary': 'var(--color-tertiary)',
+  'theme-quaternary': 'var(--color-quaternary)'
 };
 
 // Process design tokens

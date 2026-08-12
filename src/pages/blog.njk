@@ -9,20 +9,14 @@ permalink: 'blog/{% if pagination.pageNumber >=1 %}page-{{ pagination.pageNumber
 ---
 
 <div class="wrapper">
-  <header class="full | section spot-color-theme-secondary">
+  <header class="full | section spot-color-theme-primary">
     <div class="section__inner flow region" style="--region-space-top: var(--space-xl-2xl)">
       <h1 class="text-center text-theme-light">{{ title }}</h1>
     </div>
-
-    {% svg "divider/edgy", null, "divider" %}
+    {% svg "divider/soft-top", null, "divider" %}
   </header>
-{# 
-  <div class="region flow prose" style="--region-space-top: var(--space-xl-2xl)">
-    <p>This blog has a pagination of <strong>{{ pagination.size }}</strong> posts per page.<br>
-      The pagination is only shown if there are more posts ({{ collections.posts.length }}) than items per
-      page ({{ pagination.size }}).
-    </p>
-  </div> #}
+
+  <div class="region"></div>
 
   <custom-masonry layout="50-50">
 		{% asyncEach item in pagination.items %}
