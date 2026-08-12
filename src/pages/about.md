@@ -4,7 +4,7 @@ permalink: /about/index.html
 layout: page
 ---
 
-I've been around comptuers as long as I can remember, literally one of my earliest memories is my siblings pranking my mum by changing the Windows shut down message to say "the computer will self-destruct shortly".
+I've been around computers as long as I can remember. One of my earliest memories is my siblings pranking my mum by changing the Windows shut down message to say "the computer will self-destruct shortly".
 
 It's probably natural then, that I became involved in IT professionally. I've been a lead front-end developer for 10+ years, and have worked in tech for nearly 20 years (a bit of project management mixed in there too). 
 

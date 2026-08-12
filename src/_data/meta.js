@@ -2,7 +2,7 @@ export const url = process.env.URL || 'http://localhost:8080';
 // Extract domain from `url`
 export const domain = new URL(url).hostname;
 export const siteName = 'Ben Evans';
-export const siteDescription = 'Come and see what I am up to in the world.';
+export const siteDescription = 'Come and see what Ben\'s up to.';
 export const siteType = 'Person'; // schema
 export const locale = 'en_EN';
 export const lang = 'en';
@@ -15,7 +15,7 @@ export const author = {
 // for the site developer, used for footer credits and humans.txt info
 export const creator = {
   name: 'Ben Evans',
-  email: 'ben@sholezard.com',
+  email: 'benevansnz@pm.me',
   website: 'https://www.benevans.buzz'
 };
 export const pathToSvgLogo = 'src/assets/svg/misc/logo.svg'; // used for favicon generation
@@ -28,7 +28,7 @@ export const opengraph_default_alt =
 export const blog = {
   // RSS feed
   name: 'Ben Evans Buzz',
-  description: 'Come and see what I am up to in the world.',
+  description: 'Come and see what Ben\'s up to.',
   // feed links are looped over in the head. You may add more to the array.
   feedLinks: [
     {

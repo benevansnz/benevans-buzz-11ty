@@ -4,10 +4,18 @@ export default {
       text: 'About',
       url: '/about/'
     },
+    // {
+    //   text: 'Work',
+    //   url: '/work/'
+    // },
     {
       text: 'Blog',
       url: '/blog/'
-    }
+    },
+    // {
+    //   text: 'Contact',
+    //   url: '/contact/'
+    // }
   ],
   bottom: [
     {

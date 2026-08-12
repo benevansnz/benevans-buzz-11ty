@@ -199,19 +199,3 @@ pre[class*='language-'] {
 .token.variable {
   color: var(--color-code-pink);
 }
-
-iframe {
-  max-width: 100%;
-}
-
-iframe[src*='youtube.com'] {
-  min-width: 500px;
-  min-height: 300px;
-}
-
-@media (max-width: 600px) {
-  iframe[src*='youtube.com'] {
-    min-width: 100%;
-    min-height: 300px;
-  }
-}
